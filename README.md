@@ -1,1 +1,2 @@
 # JS-AJAX-APIWeather
+XMLHttpRequest

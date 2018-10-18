@@ -1,0 +1,94 @@
+.container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+.weatherToday {
+	margin: 0 auto;
+	text-align: center;
+	background: #50cd72;
+}
+
+.nameCountryToday, .dateTimeToday {
+	font: bold 25px 'Comic Sans MS', sans-serif;
+	text-align: left;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.spanNewTime {
+	background: url(../img/iconOclock2.svg) no-repeat 0px 0px;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 8px 10px 0 0;
+}
+
+.weatherIconToday {
+	width: 90px;
+}
+
+.mainTempToday {
+	font: bold 35px 'Comic Sans MS', sans-serif;
+	color: #fff;
+}
+
+.windDegToday, .windSpeedToday {
+	display: inline-block;
+	font: bold 25px 'Comic Sans MS', sans-serif;
+	color: #fff;
+	text-align: left;
+	padding: 30px 60px 30px 60px;
+}
+
+.spanNewWindDeg {
+	background: url(../img/iconWindDeg2.svg) no-repeat 0px 0px;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 8px 10px 0 0;
+}
+
+.spanNewWindSpeed {
+	background: url(../img/iconWindSpeed2.svg) no-repeat 0px 0px;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin: 8px 10px 0 0;
+}
+
+.liGroupContainer {
+	/*padding-bottom: 10px;*/
+	border-bottom: 2px solid #6f8197;
+	margin: 0 20px 0 20px;
+	list-style-type: none;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.dateTimeTomorrow {
+	font: bold 15px 'Comic Sans MS', sans-serif;
+	float: left;
+	color: #000;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+.weatherIconTomorrow {
+	display: inline-block;
+	width: 48px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.mainTempTomorrow {
+	font: bold 15px 'Comic Sans MS', sans-serif;
+	float: right;
+	color: #000;
+	vertical-align: middle;
+	line-height: 50px;
+}
